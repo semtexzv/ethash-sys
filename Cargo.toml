@@ -1,0 +1,12 @@
+[package]
+name = "ethash-sys"
+version = "0.1.2"
+authors = ["semtexzv <semtexzv@gmail.com>", "Ethminer developers"]
+links="libethash"
+description="FFI bindings to ethash c library. Actual code retrieved from ethminer source code"
+license="GPL-3.0"
+
+[dependencies]
+
+[build-dependencies]
+gcc = "0.3"
